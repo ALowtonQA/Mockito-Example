@@ -28,7 +28,7 @@ public class BusinessIdeasMockTest {
 		// Call your target method, with your desired argument (make sure to store the return value appropriately)
 		
 		// Make an appropriate assertion to confirm the test ran successfully 
-		
+		fail("Not yet implemented");
 	}
 	
 	@Test
