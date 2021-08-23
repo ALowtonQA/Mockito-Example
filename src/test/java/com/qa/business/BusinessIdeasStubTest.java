@@ -10,7 +10,12 @@ public class BusinessIdeasStubTest {
 
 	@Test
 	public void testingStubs1() {
-		fail("Not yet implemented");
+		listService listServiceStub = new IdeasServiceStub();
+		businessClass businessClass = new businessClass(listServiceStub);
+		
+		List<String> filteredIdeas = businessClass.retrieveChickenIdeas("");
+
+		assertEquals(2, filteredIdeas.size());
 	}
 
 }

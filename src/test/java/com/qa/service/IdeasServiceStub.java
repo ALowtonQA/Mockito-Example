@@ -9,4 +9,9 @@ public class IdeasServiceStub implements listService {
 		return Arrays.asList("Chicken soda", "Leather gumshield", "Chicken flavored icecream");
 	}
 
+	public void deleteIdea(String Idea) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
