@@ -17,5 +17,4 @@ public class BusinessIdeasStubTest {
 
 		assertEquals(2, filteredIdeas.size());
 	}
-
 }
